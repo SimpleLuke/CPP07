@@ -6,7 +6,7 @@
 /*   By: llai <llai@student.42london.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/18 22:51:46 by llai              #+#    #+#             */
-/*   Updated: 2024/06/18 23:07:38 by llai             ###   ########.fr       */
+/*   Updated: 2024/06/19 16:40:18 by llai             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 
 // Default constractor
 template <typename T>
-Array<T>::Array() : elements(nullptr), length(0)
+Array<T>::Array() : elements(NULL), length(0)
 {
 }
 
